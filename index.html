@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./moment.js"></script>
+    <title>Weather app</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <input type="text" name="search-city" id="search-input" placeholder="City name...">
+                <span class="microphone"><i class="fa fa-microphone"></i></span>
+            </div>
+            <p class="city-name">--</p>
+            <p class="weather-state">--</p>
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon">
+            <p class="temperature">--</p>
+        </div>
+        <div class="bottom">
+            <div class="row">
+                <div class="item">
+                    <div class="label">Sun rise</div>
+                    <div class="value sunrise">--</div>
+                </div>
+                <div class="item">
+                    <div class="label">Sun set</div>
+                    <div class="value sunset">--</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="label">Humidity</div>
+                    <div class="value"><span class="humidity">--</span> %</div>
+                </div>
+                <div class="item">
+                    <div class="label">Wind speed</div>
+                    <div class="value"><span class="windSpeed">--</span> Km/h</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

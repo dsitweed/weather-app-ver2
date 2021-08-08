@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 15px auto;
+    border: 2px solid black;
+    padding: 15px;
+    background: linear-gradient(145deg, #2193b0, #6dd5ed);
+    border-radius: 5px;
+}
+
+.top {
+    text-align: center;
+}
+
+.search-bar {
+    width: 300px;
+    margin: 2px auto;
+    padding: 2px;
+    border-bottom: 1px solid white;
+}
+
+.search-bar i {
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#search-input {
+    border: none;
+    background: none;
+    color: white;
+    height: 30px;
+    width: 200px;
+}
+
+#search-input::placeholder {
+    color: white;
+    font-size: 15px;
+}
+
+.microphone {
+    cursor: pointer;
+}
+
+.city-name {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+.weather-state {
+    font-size: 15px;
+}
+
+.weather-icon {
+    width: 100px;
+    height: auto;
+}
+
+.temperature {
+    font-size: 70px;
+    font-weight: lighter;
+    position: relative;
+}
+
+
+/* Day la phan hay ho nhat*/
+
+.temperature::after {
+    content: "o";
+    position: absolute;
+    font-size: 28px;
+}
+
+.bottom {
+    margin-top: 80px;
+    border-top: 2px solid white;
+}
+
+.row {
+    display: flex;
+}
+
+.item {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.label {
+    font-weight: bolder;
+}
